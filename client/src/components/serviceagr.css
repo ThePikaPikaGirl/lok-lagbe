@@ -1,0 +1,98 @@
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #14131a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+main {
+  padding: 2rem;
+  background-color: #fff;
+  min-height: 100px;
+  width: 734px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 16rem;
+  margin-bottom: 2rem;
+}
+
+section.body1 {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  /* background-color: #e96c6c; */
+}
+
+section.body2 {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  /* background-color: #e96c6c; */
+}
+
+div.client-table,
+div.worker-table {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+th,
+td,
+tr {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #000;
+  padding: 0.5rem 1rem;
+}
+
+div.client-table > table,
+div.worker-table > table {
+  width: 70%;
+}
+
+section.body2 > table {
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+section.body2 > p {
+  width: 90%;
+  margin: 1rem 0;
+}
+
+section.body2 > p:nth-child(4) {
+  text-align: right;
+}
+
+footer {
+  width: 90%;
+  font-size: small;
+}
+
+footer > p {
+  margin: 1rem 0;
+}
+
+footer > p:nth-child(1) {
+  font-weight: 700;
+}

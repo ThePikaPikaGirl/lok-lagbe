@@ -1,0 +1,17 @@
+#scrollview {
+  scrollbar-width: thin;
+  scrollbar-color: #1a56db transparent;
+}
+
+#scrollview::-webkit-scrollbar {
+  width: 6px;
+}
+
+#scrollview::-webkit-scrollbar-thumb {
+  background-color: #1a56db;
+  border-radius: 5px;
+}
+
+#scrollview::-webkit-scrollbar-track {
+  background-color: transparent;
+}
